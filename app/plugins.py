@@ -11,5 +11,6 @@ csrf = CSRFProtect()
 extensions = (
     db,
     mail,
-    csrf
+    csrf,
+    login_manager
 )
